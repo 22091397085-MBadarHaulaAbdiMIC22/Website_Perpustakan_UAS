@@ -1,0 +1,38 @@
+body {
+    background: url('../asset/wallpaperflare.com_wallpaper.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #000878; /* Optional: Set default text color to white for better visibility on dark backgrounds */
+}
+
+/* Additional styles for other elements if needed */
+.container-fluid {
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: Add a white background with some opacity */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.card.bg-dark {
+    background-color: #343a40 !important;
+}
+
+.card.bg-warning {
+    background-color: #ffc107 !important;
+}
+
+.card.bg-success {
+    background-color: #28a745 !important;
+}
+
+.card.bg-danger {
+    background-color: #dc3545 !important;
+}
+
+body.bg-dark {
+    background: url('../images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for readability */
+}
+

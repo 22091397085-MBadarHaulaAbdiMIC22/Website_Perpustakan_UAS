@@ -1,0 +1,84 @@
+body {
+    background: url('../asset/wallpaperflare.com_wallpaper.jpg') no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden; /* Menyembunyikan scroll */
+ /* Optional: Set default text color to white for better visibility on dark backgrounds */
+}
+
+
+
+/* Mengatur tampilan card */
+.card {
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(4, 4, 4); /* Efek bayangan ringan */
+}
+
+/* Mengatur padding pada card */
+.card-body {
+
+    background-color: rgb(87, 84, 102);
+    margin-bottom: 1%;
+}
+
+/* Mengatur tampilan teks */
+h3 {
+    color: #dfe22b; /* Warna teks gelap */
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* Mengatur lebar input dan tombol */
+.form-control,
+.btn {
+    width: 75%;
+    border-radius: 10px;
+}
+
+/* Mengatur warna tombol Login */
+.btn-warning {
+    background-color: #07ff49; /* Warna kuning */
+    border-color: #ffc107;
+}
+
+/* Mengatur margin tombol */
+.btn {
+    margin-top: 2rem;
+}
+
+/* Mengatur tampilan link */
+.small a {
+    color: #27dee4; /* Warna teks biru */
+    text-decoration:underline;
+    font-size:medium; 
+}
+
+.small a:hover {
+    color: #0056b3; /* Warna teks biru lebih gelap saat dihover */
+}
+
+/* Mengatur kontainer */
+#layoutAuthentication {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 1000vh;
+}
+
+/* Mengatur tampilan card */
+.card {
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Mengatur padding pada card */
+.card-body {
+    padding: 1px 2px;
+    text-align: center;
+}
